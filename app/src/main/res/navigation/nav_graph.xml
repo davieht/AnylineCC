@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pagingFragment">
+
+    <fragment
+        android:id="@+id/pagingFragment"
+        android:name="com.example.pagingexample.main.MainFragment"
+        android:label="fragment_paging"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_pagingFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.pagingexample.detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+    </fragment>
+</navigation>
