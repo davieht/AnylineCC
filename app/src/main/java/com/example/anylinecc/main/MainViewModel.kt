@@ -1,12 +1,12 @@
-package com.example.pagingexample.main
+package com.example.anylinecc.main
 
 import androidx.lifecycle.*
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
-import com.example.pagingexample.data.UserModel
-import com.example.pagingexample.data.UserRepo
+import com.example.anylinecc.data.UserModel
+import com.example.anylinecc.data.UserRepo
 import kotlinx.coroutines.flow.Flow
 
 class MainViewModel(

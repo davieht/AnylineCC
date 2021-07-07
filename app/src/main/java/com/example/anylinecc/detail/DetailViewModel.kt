@@ -1,8 +1,8 @@
-package com.example.pagingexample.detail
+package com.example.anylinecc.detail
 
 import androidx.lifecycle.*
-import com.example.pagingexample.data.UserModel
-import com.example.pagingexample.data.UserRepo
+import com.example.anylinecc.data.UserModel
+import com.example.anylinecc.data.UserRepo
 
 class DetailViewModel(
     private val savedStateHandle: SavedStateHandle,

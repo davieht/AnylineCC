@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/pagingFragment"
-        android:name="com.example.pagingexample.main.MainFragment"
+        android:name="com.example.anylinecc.main.MainFragment"
         android:label="fragment_paging"
         tools:layout="@layout/fragment_main" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.example.pagingexample.detail.DetailFragment"
+        android:name="com.example.anylinecc.detail.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" >
     </fragment>

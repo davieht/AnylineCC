@@ -1,4 +1,4 @@
-package com.example.pagingexample.detail
+package com.example.anylinecc.detail
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,8 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
-import com.example.pagingexample.data.UserRepo
-import com.example.pagingexample.databinding.FragmentDetailBinding
+import com.example.anylinecc.data.UserRepo
+import com.example.anylinecc.databinding.FragmentDetailBinding
 import org.koin.android.ext.android.inject
 
 private const val ARG_USER_ID = "userId"

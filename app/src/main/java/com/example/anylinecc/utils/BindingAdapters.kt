@@ -1,4 +1,4 @@
-package com.example.pagingexample.utils
+package com.example.anylinecc.utils
 
 import android.view.View
 import android.widget.ImageView

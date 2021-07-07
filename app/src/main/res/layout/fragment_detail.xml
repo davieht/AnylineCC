@@ -5,7 +5,7 @@
 
         <variable
             name="viewModel"
-            type="com.example.pagingexample.detail.DetailViewModel" />
+            type="com.example.anylinecc.detail.DetailViewModel" />
     </data>
 
     <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"

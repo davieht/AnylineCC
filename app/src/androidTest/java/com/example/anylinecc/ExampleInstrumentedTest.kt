@@ -1,4 +1,4 @@
-package com.example.pagingexample
+package com.example.anylinecc
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

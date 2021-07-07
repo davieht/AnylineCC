@@ -1,4 +1,4 @@
-package com.example.pagingexample.data
+package com.example.anylinecc.data
 
 import com.google.gson.annotations.SerializedName
 

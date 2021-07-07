@@ -1,8 +1,8 @@
-package com.example.pagingexample
+package com.example.anylinecc
 
 import android.app.Application
-import com.example.pagingexample.data.UserRepo
-import com.example.pagingexample.network.GitHubService
+import com.example.anylinecc.data.UserRepo
+import com.example.anylinecc.network.GitHubService
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin

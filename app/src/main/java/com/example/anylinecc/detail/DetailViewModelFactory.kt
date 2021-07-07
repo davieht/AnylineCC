@@ -1,10 +1,10 @@
-package com.example.pagingexample.detail
+package com.example.anylinecc.detail
 
 import androidx.lifecycle.AbstractSavedStateViewModelFactory
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.savedstate.SavedStateRegistryOwner
-import com.example.pagingexample.data.UserRepo
+import com.example.anylinecc.data.UserRepo
 
 class DetailViewModelFactory(
     private val owner: SavedStateRegistryOwner,

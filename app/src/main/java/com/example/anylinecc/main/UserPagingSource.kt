@@ -1,9 +1,9 @@
-package com.example.pagingexample.main
+package com.example.anylinecc.main
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.example.pagingexample.data.UserModel
-import com.example.pagingexample.data.UserRepo
+import com.example.anylinecc.data.UserModel
+import com.example.anylinecc.data.UserRepo
 
 /**
  * Paging Source connects REst Api with PagingAdapter

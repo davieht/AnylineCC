@@ -1,11 +1,11 @@
-package com.example.pagingexample.main
+package com.example.anylinecc.main
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.pagingexample.data.UserModel
-import com.example.pagingexample.databinding.ListItemUserBinding
-import com.example.pagingexample.utils.BindableAdapter
+import com.example.anylinecc.data.UserModel
+import com.example.anylinecc.databinding.ListItemUserBinding
+import com.example.anylinecc.utils.BindableAdapter
 
 class UserAdapter : RecyclerView.Adapter<UserViewHolder>(), BindableAdapter<List<UserModel>> {
 

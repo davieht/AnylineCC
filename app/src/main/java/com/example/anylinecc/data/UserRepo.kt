@@ -1,7 +1,7 @@
-package com.example.pagingexample.data
+package com.example.anylinecc.data
 
-import com.example.pagingexample.UserCache
-import com.example.pagingexample.network.GitHubService
+import com.example.anylinecc.UserCache
+import com.example.anylinecc.network.GitHubService
 
 class UserRepo(
     private val gitHubService: GitHubService,

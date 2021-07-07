@@ -1,4 +1,4 @@
-package com.example.pagingexample.main
+package com.example.anylinecc.main
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -11,10 +11,10 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.findNavController
 import androidx.paging.LoadState
-import com.example.pagingexample.R
-import com.example.pagingexample.utils.UserComparator
-import com.example.pagingexample.data.UserRepo
-import com.example.pagingexample.databinding.FragmentMainBinding
+import com.example.anylinecc.R
+import com.example.anylinecc.utils.UserComparator
+import com.example.anylinecc.data.UserRepo
+import com.example.anylinecc.databinding.FragmentMainBinding
 import kotlinx.android.synthetic.main.fragment_main.*
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.collectLatest

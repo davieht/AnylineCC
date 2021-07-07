@@ -1,6 +1,6 @@
-package com.example.pagingexample.network
+package com.example.anylinecc.network
 
-import com.example.pagingexample.data.UserModel
+import com.example.anylinecc.data.UserModel
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query

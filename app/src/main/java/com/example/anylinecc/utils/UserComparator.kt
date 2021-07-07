@@ -1,7 +1,7 @@
-package com.example.pagingexample.utils
+package com.example.anylinecc.utils
 
 import androidx.recyclerview.widget.DiffUtil
-import com.example.pagingexample.data.UserModel
+import com.example.anylinecc.data.UserModel
 
 object UserComparator : DiffUtil.ItemCallback<UserModel>() {
     override fun areItemsTheSame(oldItem: UserModel, newItem: UserModel): Boolean {

@@ -1,11 +1,11 @@
-package com.example.pagingexample.main
+package com.example.anylinecc.main
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
-import com.example.pagingexample.data.UserModel
-import com.example.pagingexample.databinding.ListItemUserBinding
+import com.example.anylinecc.data.UserModel
+import com.example.anylinecc.databinding.ListItemUserBinding
 
 class UserPagingAdapter(diffCallback: DiffUtil.ItemCallback<UserModel>) : PagingDataAdapter<UserModel, UserViewHolder>(diffCallback) {
     private var onItemClickListener : ((UserModel) -> Unit)? = null
